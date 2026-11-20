@@ -55,3 +55,15 @@ Nombre de bots, taille de la carte, vitesse et durée de la zone, dégâts : tou
 `map.glb` (16 Mo) est une ville de 400 m sur 400 m, textures 2048 px, recentrée sur l'origine. Le jeu la charge automatiquement s'il la trouve à la racine ou dans `assets/`, crée les collisions à partir des bâtiments, bloque les balles derrière les murs et fait apparaître les joueurs dans les rues. Sans `map.glb`, le jeu génère un terrain avec des arbres et des blocs.
 Envoyez `map.glb` avec « Téléverser des fichiers » (limite d'environ 25 Mo par fichier dans le navigateur).
 Crédits : voir `CREDITS.md`.
+
+## Fonctionnalités de jeu
+
+- Parachutage au-dessus de la ville (Maj pour plonger), atterrissage libre.
+- 4 armes à ramasser (pistolet de départ, fusil d'assaut, fusil à pompe, sniper), chargeur et rechargement (R).
+- Trousses de soin, gilets pare-balles, armes lâchées par les joueurs éliminés.
+- Mini-carte avec la zone et le butin, liste des éliminations, marqueur de touche, sons générés dans le navigateur.
+- Bots qui cherchent des armes, se soignent, fuient quand ils sont blessés et tirent plus ou moins juste.
+
+## Personnage animé
+
+`player.glb` (soldat, 8 800 triangles, 52 os) est animé par code : marche, course, bras armés. Les bots utilisent le même modèle teinté si `bot.glb` est absent. Le modèle doit avoir un squelette dont les os portent les noms Mixamo (Hips, LeftUpLeg, LeftArm...).
