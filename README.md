@@ -67,3 +67,7 @@ Crédits : voir `CREDITS.md`.
 ## Personnage animé
 
 `player.glb` (soldat, 8 800 triangles, 52 os) est animé par code : marche, course, bras armés. Les bots utilisent le même modèle teinté si `bot.glb` est absent. Le modèle doit avoir un squelette dont les os portent les noms Mixamo (Hips, LeftUpLeg, LeftArm...).
+
+## Carte île (island.glb)
+
+`island.glb` (3,3 Mo) est une île de 440 m sur 500 m avec volcan, crêtes, vallée centrale, lac, fleuve, plage, 850 arbres et 75 rochers. Le jeu la charge par défaut. Pour jouer sur la ville, ouvrez l'adresse avec `?carte=ville` à la fin. Le terrain contient sa propre grille de hauteurs : les personnages marchent sur le relief, ralentissent dans l'eau peu profonde, ne traversent pas l'eau profonde ni les pentes trop raides.
