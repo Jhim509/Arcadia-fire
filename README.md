@@ -71,3 +71,8 @@ Crédits : voir `CREDITS.md`.
 ## Carte île (island.glb)
 
 `island.glb` (3,3 Mo) est une île de 440 m sur 500 m avec volcan, crêtes, vallée centrale, lac, fleuve, plage, 850 arbres et 75 rochers. Le jeu la charge par défaut. Pour jouer sur la ville, ouvrez l'adresse avec `?carte=ville` à la fin. Le terrain contient sa propre grille de hauteurs : les personnages marchent sur le relief, ralentissent dans l'eau peu profonde, ne traversent pas l'eau profonde ni les pentes trop raides.
+
+## Commandes
+
+Clavier : ZQSD/WASD, souris, clic = tir, Maj = courir, R = recharger, V = changer de vue (3e personne, éloignée, 1re personne).
+Tactile : joystick à gauche, bouton TIR à droite (glisser pour viser), COURIR (bascule), R, VUE. Le jeu demande le mode paysage en plein écran.
